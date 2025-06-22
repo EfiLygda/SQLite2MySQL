@@ -2,14 +2,16 @@
 
 Simple command line converter of SQLite database file directly to MySQL database.
 
-# Requirements
+------------------------------------
+
+## Requirements
 ```
 python==3.8.18
 numpy==1.26.4
 pandas==2.3.0
 ```
 
-# Usage
+## Usage
 
 **Step 1:** Download the Python script `SQLite2MySQL.py'.
 
@@ -32,7 +34,7 @@ In case of another output directory argument -o can be used as below:
 py SQLite2MySQL.py -sqlite database.sqlite -u user -pwd password -host hostname -db New_MySQL_database_name -csv -o csv_output_directory
 ```
 
-# Help
+## Help
 
 ```
 usage: SQLite2MySQL.py [-h] --sqlite_filename SQLITE_FILENAME --username USERNAME --password PASSWORD --host HOST
