@@ -17,19 +17,19 @@ pandas==2.3.0
 
 **Step 3:** For Windows users, in order the make the new MySQL database and add the tables from the SQLite database file, run the command as:
 ```
-> py SQLite2MySQL.py -sqlite database.sqlite -u user -pwd password -host hostname -db New_MySQL_database_name
+py SQLite2MySQL.py -sqlite database.sqlite -u user -pwd password -host hostname -db New_MySQL_database_name
 ```
 
 In case of exporting the original database to csv files use the flag -csv, as below: 
 ```
-> py SQLite2MySQL.py -sqlite database.sqlite -u user -pwd password -host hostname -db New_MySQL_database_name -csv
+py SQLite2MySQL.py -sqlite database.sqlite -u user -pwd password -host hostname -db New_MySQL_database_name -csv
 ```
 and the files will be exported to a new directory called 'csv' in the directory from which the command is run from.
 
 
 In case of another output directory argument -o can be used as below:
 ```
-> py SQLite2MySQL.py -sqlite database.sqlite -u user -pwd password -host hostname -db New_MySQL_database_name -csv -o csv_output_directory
+py SQLite2MySQL.py -sqlite database.sqlite -u user -pwd password -host hostname -db New_MySQL_database_name -csv -o csv_output_directory
 ```
 
 # Help
