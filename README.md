@@ -13,7 +13,7 @@ pandas==2.3.0
 
 ## Usage
 
-**Step 1:** Download the Python script `SQLite2MySQL.py'.
+**Step 1:** Download the Python script `SQLite2MySQL.py`.
 
 **Step 2:** Navigate to the directory of the script through the command line (i.e. using `cd`).
 
